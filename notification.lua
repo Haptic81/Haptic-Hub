@@ -8,7 +8,7 @@ Notification["ResetOnSpawn"] = false
 local notification = nil
 
 local function text(msg: string, duration: number)
-    duration = duration or 3.5
+    duration = duration or 3
     if notification then
         notification:Destroy()
         notification = nil
@@ -63,7 +63,7 @@ local function text(msg: string, duration: number)
     countdown["BackgroundTransparency"] = 1
     countdown["TextColor3"] = Color3.new(1, 1, 1)
     countdown["Font"] = Enum.Font.GothamBold
-    countdown["TextSize"] = 13.5 -- 25% smaller than 18
+    countdown["TextSize"] = 13.5
     countdown["Position"] = UDim2.new(1, -40, 1, -28)
     countdown["Size"] = UDim2.new(0, 35, 0, 22)
     countdown["TextXAlignment"] = Enum.TextXAlignment.Right
@@ -105,4 +105,4 @@ local function text(msg: string, duration: number)
     end)
 end
 
-text("worst code ever :/")
+text("lowkey handsome :D")
