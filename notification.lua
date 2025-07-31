@@ -8,7 +8,7 @@ Notification["ResetOnSpawn"] = false
 local notification = nil
 
 local function text(msg: string, duration: number)
-    duration = duration or 4
+    duration = duration or 3.5
     if notification then
         notification:Destroy()
         notification = nil
@@ -105,4 +105,4 @@ local function text(msg: string, duration: number)
     end)
 end
 
-text("HapticHub On Top!")
+text("worst code ever :/")
