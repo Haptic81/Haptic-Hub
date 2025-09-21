@@ -69,4 +69,4 @@ local function text(message)
     end)
 end
 
-text("Click "Insert" Key To Toggle UI")
+text("Click Insert Key         Toggle UI")
